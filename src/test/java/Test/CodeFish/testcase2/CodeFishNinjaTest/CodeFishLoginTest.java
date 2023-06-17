@@ -18,7 +18,7 @@ public class CodeFishLoginTest extends CodeFishNinjaTestBase{
         codeFishPatientPage.setBirthdayClick(driver,"28","8","value","1997");
         codeFishPatientPage.setAddress("2200 E Devon ave ","Des Plains","IL",
                 "cook","60018 ","996 52 18 0592");
-        codeFishPatientPage.svalidatePatientData(driver,"Confirm","Reason cannot be empty","moved");
+        codeFishPatientPage.validatePatientData(driver,"Confirm","Reason cannot be empty","moved");
 
     }
 }
