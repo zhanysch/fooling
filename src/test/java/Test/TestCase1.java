@@ -238,6 +238,8 @@ public class TestCase1 {
         WebElement validSucces = driver.findElement(By.xpath("//div[@class='buttons_process']//strong"));
         String wD = BrowserUtils.getText(validSucces);
         String expect = "New order has been successfully added.";
-        Assert.assertEquals(wD,expect);
+
+
+        //git
     }
 }

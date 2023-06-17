@@ -1,0 +1,25 @@
+<!-- now you are learning how to create reggression suite here -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- This docktype is tellling system  that this file will be suite (regression , smoke) -->
+
+<suite name="Regression suite">
+
+    <test name="Code Tests">
+        <classes>
+
+            <class name="Test.CodeFish.testCase1.CodeFishTest.CodeFishRegistTest"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="">
+        <classes>
+
+
+        </classes>
+    </test>
+
+</suite>
+
+
